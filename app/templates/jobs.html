@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Job page{% endblock %}
+{% block content %}
+<img id="img" src="static/openjobs.jpg" >
+<h2>Available Jobs Offers</h2>
+    {% for job in jobs %}
+    <div class="border-bottm row" style="margin-buttom:16px; padding-bottm:8px">
+        <div class="col-9">
+            <h4 style="margin-bottom:6px; color:rgb(100,100,100)">{{ job['title']}}</h4>
+            <div><b/>Company:  <b/>{{ job['Company'] }}</div>
+            <div><b/>Location:  <b/>{{ job['Location'] }}</div>
+            <div><b/>Salary:  <b/>{{ job['Salary'] }}</div>
+            <div><b/>Work Style:  <b/>{{ job['Work style'] }}</div>
+        </div>
+        <div class="col-3">
+            <button type="button" class="btn btn-outline-primary">Apply</button>
+        </div>
+    </div>
+    {% endfor %}
+
+<style>
+    #img{
+        width:100%;
+        height:360px;
+        object-fit:cover;
+    }
+    h2{
+        font-size: 40px;
+        font-weight: normal;
+        font-family:italic;
+        color:rgb(150,150,180);
+        text-align: center;
+    }
+</style>
+{% endblock %}

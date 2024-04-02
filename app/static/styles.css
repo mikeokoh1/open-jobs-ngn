@@ -1,0 +1,27 @@
+
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    font-family:roboto;
+    color:rgb(100,100,100);
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    font-weight: normal;
+    font-family:italic;
+    color:rgb(150,150,180);
+    text-align: center;
+}
+p{
+    font-size:20px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0px, auto;
+    font-family: italic;
+}
+#img{
+    width:100%;
+    height:360px;
+    object-fit:cover;
+}
