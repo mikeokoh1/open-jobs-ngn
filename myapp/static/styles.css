@@ -15,10 +15,13 @@ h2{
 }
 p{
     font-size:20px;
-    text-align: center;
-    line-height: 1.5;
-    margin: 0px, auto;
     font-family: italic;
+    position: fixed;
+    top: 0px;
+    right:0px;
+    left:0px;
+    margin: 0px;
+    text-align:center;
 }
 #img{
     width:100%;

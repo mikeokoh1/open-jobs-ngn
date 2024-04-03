@@ -48,3 +48,8 @@ def home():
 @views.route("/jobs")
 def jobs():
   return render_template("jobs.html", jobs=Jobs)
+
+
+@views.route("/weather")
+def weather():
+  return render_template("weather.html")

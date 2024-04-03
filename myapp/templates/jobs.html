@@ -1,25 +1,33 @@
 {% extends "base.html" %}
 {% block title %}Job page{% endblock %}
 {% block content %}
-<img id="img" src="static/openjobs.jpg" >
+<link rel="static" href="styles.css">
 <h2>Available Jobs Offers</h2>
     {% for job in jobs %}
-    <div class="border-bottm row" style="margin-buttom:16px; padding-bottm:8px">
-        <div class="col-9">
+    <div class="border-bottom-color:rgb(201, 201, 201) row" style="margin-buttom:16px; paing-bottm:8px">
+        <ul class="col-9">
             <h4 style="margin-bottom:6px; color:rgb(100,100,100)">{{ job['title']}}</h4>
-            <div><b/>Company:  <b/>{{ job['Company'] }}</div>
-            <div><b/>Location:  <b/>{{ job['Location'] }}</div>
-            <div><b/>Salary:  <b/>{{ job['Salary'] }}</div>
-            <div><b/>Work Style:  <b/>{{ job['Work style'] }}</div>
-        </div>
+            <li><b>Company:<b/>{{ job['Company'] }}</b></li>
+            <li><b/>Location:  <b/>{{ job['Location'] }}</b></li>
+            <li><b/>Salary:  <b/>{{ job['Salary'] }}</b></li>
+            <li><b/>Work Style:  <b/>{{ job['Work style'] }}</b></li>
+        </ul>
         <div class="col-3">
-            <button type="button" class="btn btn-outline-primary">Apply</button>
+            <a href="mailto:mikeokoh999@gmail.com?subject=Application%20for%20the%20position%20of%20{{job['title']}}&body=First%20name%3A%20%3CEnter%20your%20name.%3E%0D%0AMiddle%20name%3A%20%3CEnter%20your%20name.%3E%0D%0Alast%20name%3A%20%3CEnter%20your%20name.%3E%0D%0AEducation%3A%20%3CEnter%20your%20educational%20qualifications%3A%3E%0D%0ASkills%3A%20%3CEnter%20any%20of%20your%20acquired%20skills%3A%3E%0D%0AJob%20Experience%3A%20%3CEnter%20previous%20job%20experiences.%3A%3E%0D%0AResume%20link%3A%20%3CEnter%20Your%20resume%20link.%3E%0D%0ALinkedin%20liknk%3A%20%3CEnter%20your%20Linkedin%20link%3E" type="button" class="btn btn-outline-primary">Apply</a>
         </div>
     </div>
     {% endfor %}
 
 <style>
-    
+  l{
+    list-style-type: circle;
+    margin-top:0;
+    padding-left: 0;
+    border: 1px solid orangered;
+    }
+
+    li:not(:last-child){
+      border-bottom: 1px solid orangered;
     }
 </style>
 {% endblock %}
