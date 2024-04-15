@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}Admin Sign_Up{% endblock %}
+{% block content %}
+{% include "message.html" %}
+<div class="section"></div>
+<main>
+  <center>
+    <img class="responsive-img" style="width: 250px;" src="static/istock.jpg" />
+    <div class="section"></div>
+    <h5 class="indigo-text">Create an Account</h5>
+    <div class="section"></div>
+      <div id="signup">   
+        <h1>Get Started!</h1>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <form action="/signup" method="post" class="center">
+                <div class="input-group flex-nowrap mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="name">Company Name</span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Company Name" aria-label="text" aria-describedby="text">
+                </div>
+                <div class="input-group flex-nowrap mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="email">Email</span>
+                  </div>
+                  <input type="email" class="form-control" placeholder="Your Email" aria-label="Email" aria-describedby="email-addon">
+                </div>
+                <div class="input-group flex-nowrap mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="industry">Industry</span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Industry space" aria-label="text" aria-describedby="text">
+                </div>
+                <div class="input-group flex-nowrap mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="address">Company Address</span>
+                  </div>
+                  <input type="address" class="form-control" placeholder="Company Address" aria-label="text" aria-describedby="text">
+                </div>
+                <div class="input-group flex-nowrap mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="password-addon">Password</span>
+                  </div>
+                  <input type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="password-addon">
+                </div>
+                <div class="input-group flex-nowrap mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="confirm-password-addon">Confirm Password</span>
+                  </div>
+                  <input type="password" class="form-control" placeholder="Confirm Password" aria-label="Confirm Password" aria-describedby="confirm-password-addon">
+                </div>
+                <button class="spinner-border text-primary" role="status" type="submit" class="btn btn-primary">Create</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <a href="/admin_login">Already have an account? Log in</a>
+      </div>
+    </center>
+  </div>
+</main>
+<div class="section"></div>
+<div class="section"></div>
+
+{% endblock %}

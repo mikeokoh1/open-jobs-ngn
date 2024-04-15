@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Admin Login{% endblock %}
+{% block content %}
+{% include "message.html" %}
+<div class="section"></div>
+<main>
+  <center>
+    <img class="responsive-img" style="width: 250px;" src="static/istock.jpg" />
+    <div class="section"></div>
+    <h5 class="indigo-text">Admin Login</h5>
+    <div class="section"></div>
+    <div id="login">   
+      <h1>Welcome Back!</h1>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <form action="/admin" method="POST" class="center">
+              <div class="input-group flex-nowrap mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="email">Email</span>
+                </div>
+                <input type="email" class="form-control" placeholder="Your Email" aria-label="Email" aria-describedby="email-addon">
+              </div>
+              <div class="input-group flex-nowrap mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="password-addon">Password</span>
+                </div>
+                <input type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="password-addon">
+              </div>
+              <p class="forgot"><a href="#">Forgot Password?</a></p>
+              <button class="spinner-border text-primary" role="status" type="submit" class="btn btn-primary">Login</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <a href="/admin_signup">Create an account</a>
+    </div>
+  </center>
+</div>
+</main>
+<div class="section"></div>
+<div class="section"></div>
+
+{% endblock %}

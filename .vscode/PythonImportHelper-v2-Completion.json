@@ -1,0 +1,363 @@
+[
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "generate_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "check_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "myapp",
+        "description": "myapp",
+        "isExtraImport": true,
+        "detail": "myapp",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "myapp",
+        "description": "myapp",
+        "isExtraImport": true,
+        "detail": "myapp",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "importPath": "myapp",
+        "description": "myapp",
+        "isExtraImport": true,
+        "detail": "myapp",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "logout_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "UserMixin",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "pprint",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "admin_login",
+        "kind": 2,
+        "importPath": "myapp.auth",
+        "description": "myapp.auth",
+        "peekOfCode": "def admin_login():\n    if request.method == \"POST\":\n        email = request.form.get(\"email\")\n        password = request.form.get(\"password\")\n        result = db.session.execute(select(User).where(User.email == email))\n        user = result.first()\n        if email:\n            if check_password_hash(User.password, password):\n                flash(\"logged in successfully!\", category=\"success\")\n                login_user(user, remember=True)",
+        "detail": "myapp.auth",
+        "documentation": {}
+    },
+    {
+        "label": "admin_signup",
+        "kind": 2,
+        "importPath": "myapp.auth",
+        "description": "myapp.auth",
+        "peekOfCode": "def admin_signup():\n    if request.method == \"POST\":\n        username = request.form.get(\"name\")\n        email = request.form.get(\"email\")\n        industry = request.form.get(\"industry\")\n        address = request.form.get(\"address\")\n        password = request.form.get(\"password\")\n        result = db.session.execute(select(User).where(User.email == email))\n        user = result.first()\n        if email:",
+        "detail": "myapp.auth",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "kind": 2,
+        "importPath": "myapp.auth",
+        "description": "myapp.auth",
+        "peekOfCode": "def admin():\n    if request.method == \"POST\":\n        # Check if the form was submitted\n        job_title = request.form.get(\"job_title\")\n        # Perform validation to ensure job_title is not empty\n        if job_title:\n            company = request.form.get(\"company\")\n            job_role = request.form.get(\"job_role\")\n            location = request.form.get(\"location\")\n            qualification = request.form.get(\"qualification\")",
+        "detail": "myapp.auth",
+        "documentation": {}
+    },
+    {
+        "label": "admin_logout",
+        "kind": 2,
+        "importPath": "myapp.auth",
+        "description": "myapp.auth",
+        "peekOfCode": "def admin_logout():\n    logout_user()\n    return redirect(url_for(\"/admin_login\"))",
+        "detail": "myapp.auth",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "kind": 5,
+        "importPath": "myapp.auth",
+        "description": "myapp.auth",
+        "peekOfCode": "auth = Blueprint(\"auth\", __name__)\n@auth.route(\"/admin_login\", methods=[\"GET\", \"POST\"])\ndef admin_login():\n    if request.method == \"POST\":\n        email = request.form.get(\"email\")\n        password = request.form.get(\"password\")\n        result = db.session.execute(select(User).where(User.email == email))\n        user = result.first()\n        if email:\n            if check_password_hash(User.password, password):",
+        "detail": "myapp.auth",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "myapp.models",
+        "description": "myapp.models",
+        "peekOfCode": "class Base(DeclarativeBase):\n  pass\ndb = SQLAlchemy(model_class=Base)\nclass Jobs(db.Model):\n    id: Mapped[int] = mapped_column(primary_key=True)\n    job_title: Mapped[str] \n    company: Mapped[str]\n    job_role: Mapped[str]\n    location: Mapped[str]\n    qualification: Mapped[str]",
+        "detail": "myapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Jobs",
+        "kind": 6,
+        "importPath": "myapp.models",
+        "description": "myapp.models",
+        "peekOfCode": "class Jobs(db.Model):\n    id: Mapped[int] = mapped_column(primary_key=True)\n    job_title: Mapped[str] \n    company: Mapped[str]\n    job_role: Mapped[str]\n    location: Mapped[str]\n    qualification: Mapped[str]\n    experience: Mapped[str]\n    job_style: Mapped[str]\n    salary: Mapped[int]",
+        "detail": "myapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "myapp.models",
+        "description": "myapp.models",
+        "peekOfCode": "class User(db.Model,UserMixin):\n    id: Mapped[int] = mapped_column(primary_key=True)\n    username: Mapped[str] = mapped_column(unique=True)\n    email: Mapped[str] = mapped_column(unique=True)\n    industry: Mapped[str]\n    address: Mapped[str]\n    password: Mapped[str]",
+        "detail": "myapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "myapp.models",
+        "description": "myapp.models",
+        "peekOfCode": "db = SQLAlchemy(model_class=Base)\nclass Jobs(db.Model):\n    id: Mapped[int] = mapped_column(primary_key=True)\n    job_title: Mapped[str] \n    company: Mapped[str]\n    job_role: Mapped[str]\n    location: Mapped[str]\n    qualification: Mapped[str]\n    experience: Mapped[str]\n    job_style: Mapped[str]",
+        "detail": "myapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "myapp.views",
+        "description": "myapp.views",
+        "peekOfCode": "def home():\n  result = db.session.execute(select(User).where(User.username))\n  user = result.all\n  return render_template(\"home.html\", user=user)\n@views.route(\"/jobs\")\ndef jobs():\n  jobs_query = db.session.query(Jobs).order_by(Jobs.job_title).all()\n  return render_template(\"jobs.html\", jobs=jobs_query)\n@views.route(\"/weather\")\ndef weather():",
+        "detail": "myapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "jobs",
+        "kind": 2,
+        "importPath": "myapp.views",
+        "description": "myapp.views",
+        "peekOfCode": "def jobs():\n  jobs_query = db.session.query(Jobs).order_by(Jobs.job_title).all()\n  return render_template(\"jobs.html\", jobs=jobs_query)\n@views.route(\"/weather\")\ndef weather():\n  return render_template(\"weather.html\")",
+        "detail": "myapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "weather",
+        "kind": 2,
+        "importPath": "myapp.views",
+        "description": "myapp.views",
+        "peekOfCode": "def weather():\n  return render_template(\"weather.html\")",
+        "detail": "myapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "kind": 5,
+        "importPath": "myapp.views",
+        "description": "myapp.views",
+        "peekOfCode": "views = Blueprint(\"views\", __name__)\n@views.route(\"/\")\ndef home():\n  result = db.session.execute(select(User).where(User.username))\n  user = result.all\n  return render_template(\"home.html\", user=user)\n@views.route(\"/jobs\")\ndef jobs():\n  jobs_query = db.session.query(Jobs).order_by(Jobs.job_title).all()\n  return render_template(\"jobs.html\", jobs=jobs_query)",
+        "detail": "myapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_weather",
+        "kind": 2,
+        "importPath": "myapp.weather",
+        "description": "myapp.weather",
+        "peekOfCode": "def get_current_weather(city=\"Abuja, NG\"):\n    city = str(city)\n    city = city.capitalize().strip()\n    city = f'{city} State, NG' \n    request_url= f'https://api.openweathermap.org/data/2.5/weather?appid={os.getenv(\"API_KEY\")}&q={city}units=metric'\n    #print(request_url)\n    weather_data = requests.get(request_url).json()\n    weather_data = pprint(weather_data)\n    State = print(weather_data[\"name\"])\n    Temp = print(The temperature is {weather_data[\"main\"][\"temp\"]})",
+        "detail": "myapp.weather",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = create_app()\nif __name__ == \"__main__\":\n  app.run(host=\"0.0.0.0\", port=8080, debug=True)",
+        "detail": "app",
+        "documentation": {}
+    }
+]

@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block title %}Admin page{% endblock %}
+{% block content %}
+<div class="content-profile-page">
+    <div class="profile-user-page card">
+       <div class="img-user-profile">
+         <img class="avatar" src="static/pexels.jpg" width="250" height="250" alt="jofpin"/>
+            </div>
+           <button>Follow</button>
+           <div class="user-profile-data">
+             <h1>{{ user.username }}</h1>
+             <p>{{ user.email }}</p>
+             <p>{{ user.address }}</p>
+             <p>{{ user.industry }}</p>
+           </div> 
+           <div class="description-profile">{{ user.username }} is a perfoming company in the {{ user.industry }} and is located at {{ user.address}}</div>
+        <ul class="data-user">
+         <li><a><strong>3390</strong><span>Posts</span></a></li>
+         <li><a><strong>718</strong><span>Followers</span></a></li>
+         <li><a><strong>239</strong><span>Following</span></a></li>
+        </ul>
+    </div>
+    <h1>Create a Job Opening</h1>
+    <form>
+        <div class="form-group col-7">
+          <label for="text">Job Title</label>
+          <input type="text" class="form-control" id="job_title">
+        </div>
+        <div class="form-group col-7">
+            <label for="text">Company Name</label>
+            <input type="text" class="form-control" id="company">
+        </div>
+        <div class="form-group col-7">
+            <label for="text">Job Role</label>
+            <textarea name="job_role" id="job_role" class="form-control"></textarea>
+        </div>
+        <div class="form-group col-7">
+            <label for="text">Job Location</label>
+            <input type="text" class="form-control" id="location">
+        </div>
+        <div class="form-group col-7">
+            <label for="text">Job Qualification</label>
+            <textarea name="qualification" id="qualification" class="form-control"></textarea>
+        </div>
+        <div class="form-group col-7">
+            <label for="text">Job Experience</label>
+            <textarea name="experience" id="experience" class="form-control"></textarea>
+        </div>
+        <div class="form-group col-7">
+            <label for="text">Job Style</label>
+            <input type="text" class="form-control" id="job_style">
+        </div>
+        <div class="form-group col-7">
+            <label for="text">Salary</label>
+            <input type="text" class="form-control" id="salary">
+        </div>
+        <button class="spinner-border text-primary" role="status" type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+{% endblock %}

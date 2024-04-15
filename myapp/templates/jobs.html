@@ -2,10 +2,10 @@
 {% block title %}Job page{% endblock %}
 {% block content %}
 <link rel="static" href="styles.css">
-<h2>Available Jobs Offers</h2>
+<h2 id="app">Available Jobs Offers</h2>
     {% for job in jobs %}
     <div class="border-bottom-color:rgb(201, 201, 201) row" style="margin-buttom:16px; paing-bottm:8px">
-        <ul class="col-9">
+        <ul class="col-9 styled-list">
             <h4 style="margin-bottom:6px; color:rgb(100,100,100)">{{ job['title']}}</h4>
             <li><b>Company:<b/>{{ job['Company'] }}</b></li>
             <li><b/>Location:  <b/>{{ job['Location'] }}</b></li>
@@ -17,17 +17,4 @@
         </div>
     </div>
     {% endfor %}
-
-<style>
-  l{
-    list-style-type: circle;
-    margin-top:0;
-    padding-left: 0;
-    border: 1px solid orangered;
-    }
-
-    li:not(:last-child){
-      border-bottom: 1px solid orangered;
-    }
-</style>
 {% endblock %}
